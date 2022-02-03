@@ -21,8 +21,15 @@
     "require": {
         "php": "^8.0",
         "zendtech/IbmiToolkit": "^1.8.0",
-        "cooperl/laravel-db2": "^7.0"
+        "cooperl/laravel-db2": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:keganlester/laravel-db2.git",
+            "no-api": true
+        }
+    ],
     "require-dev": {
     },
     "autoload": {
